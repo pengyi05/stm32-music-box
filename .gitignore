@@ -1,0 +1,62 @@
+# ===== Keil 编译产物 =====
+*.axf
+*.hex
+*.bin
+*.o
+*.d
+*.crf
+*.htm
+*.html
+*.map
+*.lst
+*.sct
+*.scvd
+*.dep
+*.iex
+*.bak
+*.orig
+
+# Keil 工程用户配置（每人不同，不应上传）
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvguix.*
+*.uvmpw
+*.plg
+
+# ===== STM32CubeIDE / CubeMX =====
+Debug/
+Release/
+.settings/
+.project
+.cproject
+*.launch
+*.mxproject
+*.ioc_backup
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Python 工具 =====
+__pycache__/
+*.pyc
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*.log
+*~
+
+# ===== 但要保留的源码与工程文件 =====
+# 明确排除以下规则对源码的影响（若有）
+!Firmware/Project/*.uvprojx
+!Firmware/Project/*.sct

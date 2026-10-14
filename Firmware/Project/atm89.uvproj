@@ -379,7 +379,7 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\MusicBox_Keil_Project\main.c</FilePath>
+              <FilePath>..\User\main.c</FilePath>
             </File>
           </Files>
         </Group>

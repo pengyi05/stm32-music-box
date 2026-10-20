@@ -60,3 +60,6 @@ __pycache__/
 # 明确排除以下规则对源码的影响（若有）
 !Firmware/Project/*.uvprojx
 !Firmware/Project/*.sct
+# Proteus 自动生成的工程缓存
+*.pdsprj.*.workspace
+*.epro2.*.workspace
